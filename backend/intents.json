@@ -1,0 +1,127 @@
+{
+  "intents": [
+    {
+      "tag": "sapaan",
+      "patterns": [
+        "Hai",
+        "Hei",
+        "Apa kabar?",
+        "Ada yang online?",
+        "Halo",
+        "Selamat pagi"
+      ],
+      "responses": [
+        "Hai :-)",
+        "Halo, terima kasih telah berkunjung!",
+        "Hai, ada yang bisa saya bantu?",
+        "Halo, bagaimana saya bisa membantu Anda?"
+      ]
+    },
+    {
+      "tag": "selamat_tinggal",
+      "patterns": ["Sampai jumpa", "Sampai nanti", "Selamat tinggal"],
+      "responses": [
+        "Sampai jumpa, terima kasih telah berkunjung!",
+        "Semoga harimu menyenangkan!",
+        "Sampai jumpa! Jangan lupa tetap waspada terhadap bencana alam."
+      ]
+    },
+    {
+      "tag": "terima_kasih",
+      "patterns": ["Terima kasih", "Makasih", "Ini sangat membantu", "Terima kasih banyak!"],
+      "responses": [
+        "Sama-sama, senang bisa membantu!",
+        "Terima kasih kembali!",
+        "Dengan senang hati! Jika ada pertanyaan lain, silakan tanyakan."
+      ]
+    },
+    {
+      "tag": "tsunami",
+      "patterns": [
+        "Apa itu tsunami?",
+        "Bagaimana tsunami terjadi?",
+        "Apa yang harus dilakukan saat terjadi tsunami?",
+        "Bagaimana cara menyelamatkan diri dari tsunami?"
+      ],
+      "responses": [
+        "Tsunami adalah gelombang besar yang disebabkan oleh gangguan di dasar laut, seperti gempa bumi, letusan gunung berapi, atau longsor bawah laut.",
+        "Tsunami terjadi ketika ada pergerakan besar di dasar laut yang menggeser air dalam volume besar, menciptakan gelombang yang bergerak ke daratan.",
+        "Jika ada peringatan tsunami, segera evakuasi ke tempat yang lebih tinggi dan ikuti instruksi dari pihak berwenang. Jangan menunggu hingga gelombang terlihat.",
+        "Selalu perhatikan peringatan dini tsunami, ketahui rute evakuasi terdekat, dan hindari daerah pantai jika ada potensi tsunami."
+      ]
+    },
+    {
+      "tag": "angin_topan",
+      "patterns": [
+        "Apa itu angin topan?",
+        "Bagaimana cara menghadapi angin topan?",
+        "Apa dampak dari angin topan?",
+        "Bagaimana cara mempersiapkan diri menghadapi angin topan?"
+      ],
+      "responses": [
+        "Angin topan adalah badai dengan kecepatan angin sangat tinggi yang dapat menyebabkan kerusakan parah pada bangunan dan lingkungan.",
+        "Untuk menghadapi angin topan, pastikan untuk mengamankan rumah, menghindari daerah rawan, dan mengikuti instruksi evakuasi dari pihak berwenang.",
+        "Dampak angin topan meliputi kerusakan properti, banjir, dan potensi korban jiwa. Selalu waspada dan siap siaga.",
+        "Persiapkan diri dengan menyimpan makanan, air, dan obat-obatan. Pastikan rumah Anda kuat dan aman dari angin kencang."
+      ]
+    },
+    {
+      "tag": "tanah_longsor",
+      "patterns": [
+        "Apa itu tanah longsor?",
+        "Apa penyebab tanah longsor?",
+        "Bagaimana cara mencegah tanah longsor?",
+        "Apa yang harus dilakukan saat terjadi tanah longsor?"
+      ],
+      "responses": [
+        "Tanah longsor adalah pergerakan tanah atau batuan yang tiba-tiba menuruni lereng, sering disebabkan oleh hujan deras atau gempa bumi.",
+        "Penyebab tanah longsor termasuk hujan lebat, erosi tanah, dan aktivitas manusia seperti penggundulan hutan.",
+        "Untuk mencegah tanah longsor, hindari membangun di lereng curam, tanami lereng dengan vegetasi, dan buat sistem drainase yang baik.",
+        "Jika terjadi tanah longsor, segera menjauh dari area longsor dan cari tempat yang aman. Laporkan ke pihak berwenang untuk bantuan lebih lanjut."
+      ]
+    },
+    {
+      "tag": "gempa_bumi",
+      "patterns": [
+        "Apa itu gempa bumi?",
+        "Bagaimana cara menyelamatkan diri saat gempa bumi?",
+        "Apa yang harus dilakukan setelah gempa bumi?",
+        "Bagaimana cara mempersiapkan diri menghadapi gempa bumi?"
+      ],
+      "responses": [
+        "Gempa bumi adalah getaran atau guncangan yang terjadi di permukaan bumi akibat pergerakan lempeng tektonik.",
+        "Saat gempa bumi, berlindunglah di bawah meja yang kokoh, hindari jendela, dan jangan menggunakan lift.",
+        "Setelah gempa, periksa lingkungan sekitar, hindari bangunan yang rusak, dan ikuti instruksi evakuasi dari pihak berwenang.",
+        "Persiapkan diri dengan membuat rencana evakuasi, menyiapkan tas siaga bencana, dan memastikan rumah Anda tahan gempa."
+      ]
+    },
+    {
+      "tag": "banjir",
+      "patterns": [
+        "Apa yang harus dilakukan saat terjadi banjir?",
+        "Bagaimana cara mencegah banjir?",
+        "Apa penyebab banjir?",
+        "Bagaimana cara menyelamatkan diri dari banjir?"
+      ],
+      "responses": [
+        "Saat terjadi banjir, segera pindah ke tempat yang lebih tinggi, hindari berjalan di air banjir, dan matikan listrik di rumah.",
+        "Untuk mencegah banjir, buat saluran drainase yang baik, hindari membuang sampah sembarangan, dan tanami pohon untuk menyerap air.",
+        "Penyebab banjir meliputi hujan deras, sungai meluap, dan sistem drainase yang buruk.",
+        "Selalu perhatikan peringatan banjir, siapkan tas siaga bencana, dan ketahui rute evakuasi terdekat."
+      ]
+    },
+    {
+      "tag": "edukasi_bencana",
+      "patterns": [
+        "Bagaimana cara mengedukasi masyarakat tentang bencana alam?",
+        "Apa yang harus diajarkan kepada anak-anak tentang bencana?",
+        "Apa kegiatan yang bisa meningkatkan kesadaran bencana?"
+      ],
+      "responses": [
+        "Edukasi masyarakat bisa dilakukan melalui simulasi bencana, penyuluhan, dan distribusi materi edukasi seperti brosur atau poster.",
+        "Ajarkan anak-anak tentang jenis-jenis bencana, cara menghadapinya, dan pentingnya mengikuti instruksi evakuasi.",
+        "Kegiatan seperti simulasi bencana, lomba poster, atau seminar bisa meningkatkan kesadaran masyarakat tentang bencana alam."
+      ]
+    }
+  ]
+}

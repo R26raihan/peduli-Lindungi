@@ -1,0 +1,61 @@
+name: guardianeye
+description: A Flutter project for disaster potential monitoring.
+
+# Prevent accidental publishing to pub.dev
+publish_to: 'none'
+
+# Version info
+version: 1.0.0+1
+
+# Dart SDK version
+environment:
+  sdk: ">=3.6.0 <4.0.0"
+
+# Dependencies
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  firebase_core: ^2.15.0
+  firebase_auth: ^4.8.0
+  firebase_messaging: ^14.7.2
+  cloud_firestore: ^4.17.5
+  fluttertoast: ^8.2.3
+  flutter_spinkit: ^5.2.0
+  geolocator: ^10.0.3
+  google_maps_flutter: ^2.2.0
+  http: ^1.1.0
+  google_sign_in: ^6.1.0
+  font_awesome_flutter: ^10.8.0
+  particles_flutter: ^1.0.0+2
+  flutter_map: ^7.0.2 
+  image_picker: ^0.8.7
+  shared_preferences: ^2.0.15
+  provider: ^6.0.5
+  web_socket_channel: ^2.1.0
+  cached_network_image: ^3.2.3
+  json_annotation: ^4.4.0
+  flutter_gif: ^0.0.4 # Untuk GIF lokal (opsional)
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  json_serializable: ^6.9.3
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/Logo.png
+    - assets/images/Background.jpg
+    - assets/images/backgrounHomepage.jpg
+    - assets/images/Homepage.png
+    - assets/images/salingkabar.png
+    - assets/images/bot.png
+    - assets/images/chatbot.png
+    - assets/images/icons/icons8-alert.gif
+    - assets/images/icons/banjir.png
+    - assets/images/icons/longsor.png
+    - assets/images/icons/anginkencang.png
+    - assets/images/icons/radargempa.png

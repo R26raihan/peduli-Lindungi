@@ -1,0 +1,612 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_0407f90c35314646704edf1fe79631bc {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_0407f90c35314646704edf1fe79631bc" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_0407f90c35314646704edf1fe79631bc = L.map(
+                "map_0407f90c35314646704edf1fe79631bc",
+                {
+                    center: [-2.5489, 118.0149],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 5,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_74bb1dbff59d58333047db1c1f52be15 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_74bb1dbff59d58333047db1c1f52be15.addTo(map_0407f90c35314646704edf1fe79631bc);
+        
+    
+            var marker_f39866a78f99570a0d53f791ed0c0c56 = L.marker(
+                [-8.2271303, 115.1919203],
+                {}
+            ).addTo(map_0407f90c35314646704edf1fe79631bc);
+        
+    
+            var icon_8c87f84709e13869efcfc88825829fd6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_f39866a78f99570a0d53f791ed0c0c56.setIcon(icon_8c87f84709e13869efcfc88825829fd6);
+        
+    
+        var popup_8ab99098b0a6e7c19c048a9e86957968 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_46f126e28c4194f2dd0b4254f3b40234 = $(`<div id="html_46f126e28c4194f2dd0b4254f3b40234" style="width: 100.0%; height: 100.0%;">Bali: PERINGATAN DINI HUJAN SEDANG - LEBAT</div>`)[0];
+                popup_8ab99098b0a6e7c19c048a9e86957968.setContent(html_46f126e28c4194f2dd0b4254f3b40234);
+            
+        
+
+        marker_f39866a78f99570a0d53f791ed0c0c56.bindPopup(popup_8ab99098b0a6e7c19c048a9e86957968)
+        ;
+
+        
+    
+    
+            var marker_533fa94ecad8ee2c3a961cf47aa045d5 = L.marker(
+                [-6.4453801, 106.1375586],
+                {}
+            ).addTo(map_0407f90c35314646704edf1fe79631bc);
+        
+    
+            var icon_acae98a80a5d93eb629b750e713ab43d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_533fa94ecad8ee2c3a961cf47aa045d5.setIcon(icon_acae98a80a5d93eb629b750e713ab43d);
+        
+    
+        var popup_7228427a45a13557ab266f2e508127f8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9f4e2a623437d566741023097d8bdf3d = $(`<div id="html_9f4e2a623437d566741023097d8bdf3d" style="width: 100.0%; height: 100.0%;">Banten: PERINGATAN DINI HUJAN SEDANG - LEBAT</div>`)[0];
+                popup_7228427a45a13557ab266f2e508127f8.setContent(html_9f4e2a623437d566741023097d8bdf3d);
+            
+        
+
+        marker_533fa94ecad8ee2c3a961cf47aa045d5.bindPopup(popup_7228427a45a13557ab266f2e508127f8)
+        ;
+
+        
+    
+    
+            var marker_ebc6d4b2b0ebb5ed12dd10e4f2575833 = L.marker(
+                [-3.5186763, 102.5359834],
+                {}
+            ).addTo(map_0407f90c35314646704edf1fe79631bc);
+        
+    
+            var icon_799dc624c3b77ee8e663885096d3f8ff = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_ebc6d4b2b0ebb5ed12dd10e4f2575833.setIcon(icon_799dc624c3b77ee8e663885096d3f8ff);
+        
+    
+        var popup_a67ce7fafc38b745243ae8692c8a3a12 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_98f5b55110a244c0146aaa45960b90ea = $(`<div id="html_98f5b55110a244c0146aaa45960b90ea" style="width: 100.0%; height: 100.0%;">Bengkulu: PERINGATAN DINI HUJAN SEDANG - LEBAT</div>`)[0];
+                popup_a67ce7fafc38b745243ae8692c8a3a12.setContent(html_98f5b55110a244c0146aaa45960b90ea);
+            
+        
+
+        marker_ebc6d4b2b0ebb5ed12dd10e4f2575833.bindPopup(popup_a67ce7fafc38b745243ae8692c8a3a12)
+        ;
+
+        
+    
+    
+            var marker_93f86ed4c1013ad6e7652d3f089dd782 = L.marker(
+                [-7.9778383999999996, 110.36722565020224],
+                {}
+            ).addTo(map_0407f90c35314646704edf1fe79631bc);
+        
+    
+            var icon_cce62da4001464d569e9d0f95c0ed2a9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_93f86ed4c1013ad6e7652d3f089dd782.setIcon(icon_cce62da4001464d569e9d0f95c0ed2a9);
+        
+    
+        var popup_b49ad527a4b4f5dbd9413a1e13baaef4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f2b1999c04b1be6b1346a6734b59d0a8 = $(`<div id="html_f2b1999c04b1be6b1346a6734b59d0a8" style="width: 100.0%; height: 100.0%;">Daerah Istimewa Yogyakarta: PERINGATAN DINI HUJAN SEDANG - LEBAT</div>`)[0];
+                popup_b49ad527a4b4f5dbd9413a1e13baaef4.setContent(html_f2b1999c04b1be6b1346a6734b59d0a8);
+            
+        
+
+        marker_93f86ed4c1013ad6e7652d3f089dd782.bindPopup(popup_b49ad527a4b4f5dbd9413a1e13baaef4)
+        ;
+
+        
+    
+    
+            var marker_b7942cabf1a09df57f8b20deb54608d2 = L.marker(
+                [0.7186174, 122.4555927],
+                {}
+            ).addTo(map_0407f90c35314646704edf1fe79631bc);
+        
+    
+            var icon_901010000269865a61bbab87fd95b697 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_b7942cabf1a09df57f8b20deb54608d2.setIcon(icon_901010000269865a61bbab87fd95b697);
+        
+    
+        var popup_4232bdebb9db9b1386d6247763ccd3ac = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ef057dbaaf646d48d9252ce6ff594e5f = $(`<div id="html_ef057dbaaf646d48d9252ce6ff594e5f" style="width: 100.0%; height: 100.0%;">Gorontalo: PERINGATAN DINI HUJAN SEDANG - LEBAT</div>`)[0];
+                popup_4232bdebb9db9b1386d6247763ccd3ac.setContent(html_ef057dbaaf646d48d9252ce6ff594e5f);
+            
+        
+
+        marker_b7942cabf1a09df57f8b20deb54608d2.bindPopup(popup_4232bdebb9db9b1386d6247763ccd3ac)
+        ;
+
+        
+    
+    
+            var marker_637ecc3b3dfda7ebb55d94220409f83d = L.marker(
+                [-1.6394711, 102.94542640112506],
+                {}
+            ).addTo(map_0407f90c35314646704edf1fe79631bc);
+        
+    
+            var icon_af7e840979f68c1721a00d7dbe1f64a8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_637ecc3b3dfda7ebb55d94220409f83d.setIcon(icon_af7e840979f68c1721a00d7dbe1f64a8);
+        
+    
+        var popup_b70f75975c6505548dbe01c885ac5e5b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_04c5e387090fdc8997e5b71b27ede9e5 = $(`<div id="html_04c5e387090fdc8997e5b71b27ede9e5" style="width: 100.0%; height: 100.0%;">Jambi: PERINGATAN DINI HUJAN SEDANG - LEBAT</div>`)[0];
+                popup_b70f75975c6505548dbe01c885ac5e5b.setContent(html_04c5e387090fdc8997e5b71b27ede9e5);
+            
+        
+
+        marker_637ecc3b3dfda7ebb55d94220409f83d.bindPopup(popup_b70f75975c6505548dbe01c885ac5e5b)
+        ;
+
+        
+    
+    
+            var marker_6dea2a09027bfa9f73f9dc36f25aff93 = L.marker(
+                [-6.8891904, 107.6404716],
+                {}
+            ).addTo(map_0407f90c35314646704edf1fe79631bc);
+        
+    
+            var icon_4f52091a5600ee0b0f80d76f8937cf56 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_6dea2a09027bfa9f73f9dc36f25aff93.setIcon(icon_4f52091a5600ee0b0f80d76f8937cf56);
+        
+    
+        var popup_34983073ef82619533790875ab5f590f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bf3efc19a8e104c667080321db02fe8f = $(`<div id="html_bf3efc19a8e104c667080321db02fe8f" style="width: 100.0%; height: 100.0%;">Jawa Barat: PERINGATAN DINI HUJAN SEDANG - LEBAT</div>`)[0];
+                popup_34983073ef82619533790875ab5f590f.setContent(html_bf3efc19a8e104c667080321db02fe8f);
+            
+        
+
+        marker_6dea2a09027bfa9f73f9dc36f25aff93.bindPopup(popup_34983073ef82619533790875ab5f590f)
+        ;
+
+        
+    
+    
+            var marker_8c0b71769aa5afd7a56faa3b31e9fefb = L.marker(
+                [-7.3032412, 110.0044145],
+                {}
+            ).addTo(map_0407f90c35314646704edf1fe79631bc);
+        
+    
+            var icon_42b2f9cb81d9ad3ea70e11d094186dd2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_8c0b71769aa5afd7a56faa3b31e9fefb.setIcon(icon_42b2f9cb81d9ad3ea70e11d094186dd2);
+        
+    
+        var popup_3b093ee25be9d9e8c28e744436aee90a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b6452084d538ee63dac8e3dbf4c78d78 = $(`<div id="html_b6452084d538ee63dac8e3dbf4c78d78" style="width: 100.0%; height: 100.0%;">Jawa Tengah: PERINGATAN DINI HUJAN SEDANG - LEBAT</div>`)[0];
+                popup_3b093ee25be9d9e8c28e744436aee90a.setContent(html_b6452084d538ee63dac8e3dbf4c78d78);
+            
+        
+
+        marker_8c0b71769aa5afd7a56faa3b31e9fefb.bindPopup(popup_3b093ee25be9d9e8c28e744436aee90a)
+        ;
+
+        
+    
+    
+            var marker_89fe04b8dc80015f39124f91273923b0 = L.marker(
+                [-2.9285686, 115.3700718],
+                {}
+            ).addTo(map_0407f90c35314646704edf1fe79631bc);
+        
+    
+            var icon_45079c7a0770baf2ff7821466e6ae7c3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_89fe04b8dc80015f39124f91273923b0.setIcon(icon_45079c7a0770baf2ff7821466e6ae7c3);
+        
+    
+        var popup_fb9a0297c49d242204d71994f73d5457 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bbdc1460ac161b543f840908fcecc9d9 = $(`<div id="html_bbdc1460ac161b543f840908fcecc9d9" style="width: 100.0%; height: 100.0%;">Kalimantan Selatan: PERINGATAN DINI HUJAN SEDANG - LEBAT</div>`)[0];
+                popup_fb9a0297c49d242204d71994f73d5457.setContent(html_bbdc1460ac161b543f840908fcecc9d9);
+            
+        
+
+        marker_89fe04b8dc80015f39124f91273923b0.bindPopup(popup_fb9a0297c49d242204d71994f73d5457)
+        ;
+
+        
+    
+    
+            var marker_d39e33bd4729e94049f005be6ccfb371 = L.marker(
+                [-1.499583, 113.2903307],
+                {}
+            ).addTo(map_0407f90c35314646704edf1fe79631bc);
+        
+    
+            var icon_322a3d21bdd890a2bf9caa23c25aea75 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_d39e33bd4729e94049f005be6ccfb371.setIcon(icon_322a3d21bdd890a2bf9caa23c25aea75);
+        
+    
+        var popup_90d6caee5acb3f97b10fa7fe59be73c2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_029b52b09f3e3ca1626d2502044013d3 = $(`<div id="html_029b52b09f3e3ca1626d2502044013d3" style="width: 100.0%; height: 100.0%;">Kalimantan Tengah: PERINGATAN DINI HUJAN SEDANG - LEBAT</div>`)[0];
+                popup_90d6caee5acb3f97b10fa7fe59be73c2.setContent(html_029b52b09f3e3ca1626d2502044013d3);
+            
+        
+
+        marker_d39e33bd4729e94049f005be6ccfb371.bindPopup(popup_90d6caee5acb3f97b10fa7fe59be73c2)
+        ;
+
+        
+    
+    
+            var marker_db7dc95a982cbd56d8233b3dce67164e = L.marker(
+                [0.7884397, 116.2419977],
+                {}
+            ).addTo(map_0407f90c35314646704edf1fe79631bc);
+        
+    
+            var icon_69ca8265ab89de7b81634719464d244e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_db7dc95a982cbd56d8233b3dce67164e.setIcon(icon_69ca8265ab89de7b81634719464d244e);
+        
+    
+        var popup_3b8d797def944840a3a036ac8b804bf4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9e9ed6f8ebdeb450c1e71c9bfb116bf5 = $(`<div id="html_9e9ed6f8ebdeb450c1e71c9bfb116bf5" style="width: 100.0%; height: 100.0%;">Kalimantan Timur: PERINGATAN DINI HUJAN SEDANG - LEBAT</div>`)[0];
+                popup_3b8d797def944840a3a036ac8b804bf4.setContent(html_9e9ed6f8ebdeb450c1e71c9bfb116bf5);
+            
+        
+
+        marker_db7dc95a982cbd56d8233b3dce67164e.bindPopup(popup_3b8d797def944840a3a036ac8b804bf4)
+        ;
+
+        
+    
+    
+            var marker_5e0fe781b16b978057874ecd1fd19452 = L.marker(
+                [3.0235817, 116.2049306],
+                {}
+            ).addTo(map_0407f90c35314646704edf1fe79631bc);
+        
+    
+            var icon_ee7c7b83d6c6ed54e72fdaefa6d47fec = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_5e0fe781b16b978057874ecd1fd19452.setIcon(icon_ee7c7b83d6c6ed54e72fdaefa6d47fec);
+        
+    
+        var popup_f4aa60af4e667caafa06832b262ffa16 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_eaa9f8de0bb7c982c6a8bcc35eb0079c = $(`<div id="html_eaa9f8de0bb7c982c6a8bcc35eb0079c" style="width: 100.0%; height: 100.0%;">Kalimantan Utara: PERINGATAN DINI HUJAN SEDANG - LEBAT</div>`)[0];
+                popup_f4aa60af4e667caafa06832b262ffa16.setContent(html_eaa9f8de0bb7c982c6a8bcc35eb0079c);
+            
+        
+
+        marker_5e0fe781b16b978057874ecd1fd19452.bindPopup(popup_f4aa60af4e667caafa06832b262ffa16)
+        ;
+
+        
+    
+    
+            var marker_1b90c90ed1703f9c9105044fc4a981ec = L.marker(
+                [-2.7052886, 106.3585607],
+                {}
+            ).addTo(map_0407f90c35314646704edf1fe79631bc);
+        
+    
+            var icon_2cd72f5336ec33ef7da7d546aa9385cd = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_1b90c90ed1703f9c9105044fc4a981ec.setIcon(icon_2cd72f5336ec33ef7da7d546aa9385cd);
+        
+    
+        var popup_692b371f390c4e06712aed90fd9946e2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4ab549aa4a9c3384c361d89c17c8c331 = $(`<div id="html_4ab549aa4a9c3384c361d89c17c8c331" style="width: 100.0%; height: 100.0%;">Kepulauan Bangka Belitung: PERINGATAN DINI HUJAN SEDANG - LEBAT</div>`)[0];
+                popup_692b371f390c4e06712aed90fd9946e2.setContent(html_4ab549aa4a9c3384c361d89c17c8c331);
+            
+        
+
+        marker_1b90c90ed1703f9c9105044fc4a981ec.bindPopup(popup_692b371f390c4e06712aed90fd9946e2)
+        ;
+
+        
+    
+    
+            var marker_d062c57966365f5ed97f38e6ea88db93 = L.marker(
+                [-0.1547846, 104.5803745],
+                {}
+            ).addTo(map_0407f90c35314646704edf1fe79631bc);
+        
+    
+            var icon_1266befd42b23666e1fd97e6dd36c13c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_d062c57966365f5ed97f38e6ea88db93.setIcon(icon_1266befd42b23666e1fd97e6dd36c13c);
+        
+    
+        var popup_9c9c71eb7fb6f0865534a4cb9da6f95e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5d54dfbd9c1f37fb6375b614275194f7 = $(`<div id="html_5d54dfbd9c1f37fb6375b614275194f7" style="width: 100.0%; height: 100.0%;">Kepulauan Riau: PERINGATAN DINI HUJAN SEDANG - LEBAT</div>`)[0];
+                popup_9c9c71eb7fb6f0865534a4cb9da6f95e.setContent(html_5d54dfbd9c1f37fb6375b614275194f7);
+            
+        
+
+        marker_d062c57966365f5ed97f38e6ea88db93.bindPopup(popup_9c9c71eb7fb6f0865534a4cb9da6f95e)
+        ;
+
+        
+    
+    
+            var marker_d6b4c2f036be351932c6738d5a78fb77 = L.marker(
+                [-8.5656787, 120.6978581],
+                {}
+            ).addTo(map_0407f90c35314646704edf1fe79631bc);
+        
+    
+            var icon_21b8f4a7baf4a705648c108e88ef99b2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_d6b4c2f036be351932c6738d5a78fb77.setIcon(icon_21b8f4a7baf4a705648c108e88ef99b2);
+        
+    
+        var popup_d8b0e9e2e996822f015dbb3956c772ac = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_db57d96f50063aae84d2d664715e5219 = $(`<div id="html_db57d96f50063aae84d2d664715e5219" style="width: 100.0%; height: 100.0%;">Nusa Tenggara Timur: PERINGATAN DINI HUJAN SEDANG - LEBAT</div>`)[0];
+                popup_d8b0e9e2e996822f015dbb3956c772ac.setContent(html_db57d96f50063aae84d2d664715e5219);
+            
+        
+
+        marker_d6b4c2f036be351932c6738d5a78fb77.bindPopup(popup_d8b0e9e2e996822f015dbb3956c772ac)
+        ;
+
+        
+    
+    
+            var marker_e73dae60b3303dfc49b7af344e292740 = L.marker(
+                [-2.8553556, 133.4738171],
+                {}
+            ).addTo(map_0407f90c35314646704edf1fe79631bc);
+        
+    
+            var icon_db968e0ce16ca9bb3036a00f90eca724 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_e73dae60b3303dfc49b7af344e292740.setIcon(icon_db968e0ce16ca9bb3036a00f90eca724);
+        
+    
+        var popup_57661d4df305fc5b937d6d937cd372cb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0e96acbebf1d227bd85c8b95bde3a96d = $(`<div id="html_0e96acbebf1d227bd85c8b95bde3a96d" style="width: 100.0%; height: 100.0%;">Papua Barat: PERINGATAN DINI HUJAN SEDANG - LEBAT</div>`)[0];
+                popup_57661d4df305fc5b937d6d937cd372cb.setContent(html_0e96acbebf1d227bd85c8b95bde3a96d);
+            
+        
+
+        marker_e73dae60b3303dfc49b7af344e292740.bindPopup(popup_57661d4df305fc5b937d6d937cd372cb)
+        ;
+
+        
+    
+    
+            var marker_4b56df68aaa2b9ef760db1ee892b8c58 = L.marker(
+                [0.5004112, 101.5475811],
+                {}
+            ).addTo(map_0407f90c35314646704edf1fe79631bc);
+        
+    
+            var icon_a33f1d327b1842e85e309f22e15bc29c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_4b56df68aaa2b9ef760db1ee892b8c58.setIcon(icon_a33f1d327b1842e85e309f22e15bc29c);
+        
+    
+        var popup_df7667c8040bc948209f678a73ffb0ef = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_30cd00eb80b4d307e15ef12372d7fdc8 = $(`<div id="html_30cd00eb80b4d307e15ef12372d7fdc8" style="width: 100.0%; height: 100.0%;">Riau: PERINGATAN DINI HUJAN SEDANG - LEBAT</div>`)[0];
+                popup_df7667c8040bc948209f678a73ffb0ef.setContent(html_30cd00eb80b4d307e15ef12372d7fdc8);
+            
+        
+
+        marker_4b56df68aaa2b9ef760db1ee892b8c58.bindPopup(popup_df7667c8040bc948209f678a73ffb0ef)
+        ;
+
+        
+    
+    
+            var marker_91fe9590712cc1a249dda65031b40fe1 = L.marker(
+                [-3.6446718, 119.9471906],
+                {}
+            ).addTo(map_0407f90c35314646704edf1fe79631bc);
+        
+    
+            var icon_8351446c0b16d56c432edafc1c781a83 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_91fe9590712cc1a249dda65031b40fe1.setIcon(icon_8351446c0b16d56c432edafc1c781a83);
+        
+    
+        var popup_572532ac616198982dbd9d4bac2ce62d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e74fe199ab77440e0642e2a9aa38ad6d = $(`<div id="html_e74fe199ab77440e0642e2a9aa38ad6d" style="width: 100.0%; height: 100.0%;">Sulawesi Selatan: PERINGATAN DINI HUJAN SEDANG - LEBAT</div>`)[0];
+                popup_572532ac616198982dbd9d4bac2ce62d.setContent(html_e74fe199ab77440e0642e2a9aa38ad6d);
+            
+        
+
+        marker_91fe9590712cc1a249dda65031b40fe1.bindPopup(popup_572532ac616198982dbd9d4bac2ce62d)
+        ;
+
+        
+    
+    
+            var marker_ad8b445564d61bf09d62504182ceb55c = L.marker(
+                [-3.5491199, 121.7279646],
+                {}
+            ).addTo(map_0407f90c35314646704edf1fe79631bc);
+        
+    
+            var icon_a53bb7666b2ec1871e6d6e1dc43903e5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_ad8b445564d61bf09d62504182ceb55c.setIcon(icon_a53bb7666b2ec1871e6d6e1dc43903e5);
+        
+    
+        var popup_ae14a1292ed88fe05acc0b01f39178ca = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c1f2d2a86606e3316a95ec8d1f9b8119 = $(`<div id="html_c1f2d2a86606e3316a95ec8d1f9b8119" style="width: 100.0%; height: 100.0%;">Sulawesi Tenggara: PERINGATAN DINI HUJAN SEDANG - LEBAT</div>`)[0];
+                popup_ae14a1292ed88fe05acc0b01f39178ca.setContent(html_c1f2d2a86606e3316a95ec8d1f9b8119);
+            
+        
+
+        marker_ad8b445564d61bf09d62504182ceb55c.bindPopup(popup_ae14a1292ed88fe05acc0b01f39178ca)
+        ;
+
+        
+    
+    
+            var marker_e394924d70c442aa1cebeb78e8667559 = L.marker(
+                [-3.1266842, 104.0930554],
+                {}
+            ).addTo(map_0407f90c35314646704edf1fe79631bc);
+        
+    
+            var icon_fe2fe7c18b847748c38660d1596a6cc8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_e394924d70c442aa1cebeb78e8667559.setIcon(icon_fe2fe7c18b847748c38660d1596a6cc8);
+        
+    
+        var popup_a4a50826e34286d73dcbf6f433a4c41b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_014002622aa77a75c3ae3563c0083be4 = $(`<div id="html_014002622aa77a75c3ae3563c0083be4" style="width: 100.0%; height: 100.0%;">Sumatera Selatan: PERINGATAN DINI HUJAN SEDANG - LEBAT</div>`)[0];
+                popup_a4a50826e34286d73dcbf6f433a4c41b.setContent(html_014002622aa77a75c3ae3563c0083be4);
+            
+        
+
+        marker_e394924d70c442aa1cebeb78e8667559.bindPopup(popup_a4a50826e34286d73dcbf6f433a4c41b)
+        ;
+
+        
+    
+</script>
+</html>
