@@ -1,24 +1,14 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-# guardianeye
+# Pantau Lindungi
 
-A new Flutter project.
+**Pantau Lindungi** adalah aplikasi pemantauan bencana yang mengintegrasikan berbagai sumber data cuaca dan bencana untuk memberikan informasi real-time kepada pengguna. Aplikasi ini dirancang untuk membantu masyarakat dalam menghadapi bencana dengan informasi yang akurat dan mudah diakses.
 
-## Getting Started
+## Fitur Utama
+- **Pemantauan Cuaca**: Menggunakan data layer cuaca dari OpenWeather dan data dari BMKG untuk memberikan informasi cuaca terkini.  
+- **Peringatan Dini Bencana**: Mengakses informasi dari Posko Banjir Jakarta dan BNPB untuk memberikan peringatan dini terhadap potensi bencana.  
+- **Chatbot Edukatif**: Chatbot interaktif yang memberikan informasi dan edukasi terkait kesiapsiagaan bencana.  
+- **Tampilan Interaktif**: Menyajikan data dalam bentuk visual yang mudah dipahami oleh pengguna.  
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-=======
-# peduli-Lindungi
->>>>>>> 5bf6625a4a481c7f6f89ae2601291d44143ef904
-=======
-# peduli-Lindungi
->>>>>>> 5bf6625a4a481c7f6f89ae2601291d44143ef904
+## Teknologi yang Digunakan
+- **Flutter** - Untuk pengembangan aplikasi mobile yang responsif dan modern.  
+- **FastAPI** - Backend API yang cepat dan ringan untuk menangani permintaan data secara real-time.  
+- **Django** - Digunakan untuk manajemen data dan penyimpanan informasi bencana.  
